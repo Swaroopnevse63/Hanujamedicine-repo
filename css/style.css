@@ -15,9 +15,10 @@
 }
 .enquiry{
     background: linear-gradient(to bottom,var(--primary), var(--secondary)),url('/assets/images/enquiry.png');
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
     overflow:hidden;
@@ -30,7 +31,7 @@
     bottom: -260px;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 64%;
     background: white;
     /* border-radius: 0 0 100% 100% / 0 0  50% 50% ;  */
     border-radius: 151% 149% 143% 49% / 277% 283% 1% 1%;
