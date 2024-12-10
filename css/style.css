@@ -37,6 +37,32 @@
     border-radius: 151% 149% 143% 49% / 277% 283% 1% 1%;
     transform: scaleX(1.5);
 }
+
+
+.franchises{
+    background: linear-gradient(to bottom,var(--primary), var(--secondary)),url('/assets/images/worldmap.png');
+    height: 85vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+.franchises::before{
+    position: absolute;
+    content: '';
+    /* top: 0; */
+    bottom: -260px;
+    left: 0;
+    width: 100%;
+    height: 74%;
+    background: white;
+    /* border-radius: 0 0 100% 100% / 0 0  50% 50% ;  */
+    border-radius: 151% 149% 143% 49% / 277% 283% 1% 1%;
+    transform: scaleX(1.5);
+}
 h3{
     /* font-family: "Inter", sans-serif; */
     font-family: "Montserrat", serif;
